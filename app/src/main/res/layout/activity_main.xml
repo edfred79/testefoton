@@ -16,16 +16,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/aboutapp"
-                android:layout_width="180dp"
-                android:layout_height="94dp"
-                android:layout_gravity="center_horizontal"
-                android:backgroundTint="#2258E3"
-                android:text="Sobre o Aplicativo"
-                android:textSize="20sp"
-                android:visibility="visible" />
-
             <TextView
                 android:id="@+id/tvdp"
                 android:layout_width="match_parent"
