@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Orto Previna</string>
+    <string name="risc">%d</string>
+    <string name="teste">Teste</string>
+    <string name="todo">TODO</string>
+    <string name="guia_em_pdf">Guia em PDF</string>
+    <string name="mais_orienta_es">Mais orientações</string>
+    <string name="clique_nas_marca_es_para_maiores_informa_es">Clique nas marcações para maiores informações</string>
+</resources>

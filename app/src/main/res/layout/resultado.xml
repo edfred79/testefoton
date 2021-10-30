@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="403dp"
+        android:layout_height="72dp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="-45dp"
+        android:background="#2258E3"
+        android:text="@string/clique_nas_marca_es_para_maiores_informa_es"
+        android:textAlignment="center"
+        android:textColor="#FBF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pdfView" />
+
+    <ImageView
+        android:id="@+id/ivDoll"
+        android:layout_width="750dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/doll" />
+
+    <TextView
+        android:id="@+id/tvRisco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginBottom="51dp"
+        android:text="@string/teste"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tvR"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-100dp"
+        android:layout_marginBottom="-124dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivDoll"
+        app:layout_constraintEnd_toStartOf="@+id/pdfView"
+        app:layout_constraintStart_toEndOf="@+id/pdfView"
+        app:layout_constraintTop_toBottomOf="@+id/tvInfo" />
+
+    <Button
+        android:id="@+id/btMaisOrient"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="583dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#2258E3"
+        android:text="@string/mais_orienta_es"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="454dp"
+        android:layout_marginBottom="533dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="467dp"
+        android:layout_marginBottom="482dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b3"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="454dp"
+        android:layout_marginBottom="377dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b4"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="467dp"
+        android:layout_marginBottom="337dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b5"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="267dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="454dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b6"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="449dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="533dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b7"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="468dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="482dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b8"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="387dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b9"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="465dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="337dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b10"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="465dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/b11"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="457dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#2258E3"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+    <Button
+        android:id="@+id/btPdf"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="647dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2258E3"
+        android:text="Curriculo"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDoll"
+        app:layout_constraintEnd_toEndOf="@+id/ivDoll"
+        app:layout_constraintStart_toStartOf="@+id/ivDoll"
+        app:layout_constraintTop_toTopOf="@+id/ivDoll" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

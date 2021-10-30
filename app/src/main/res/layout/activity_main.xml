@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ortoprevina.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/aboutapp"
+                android:layout_width="180dp"
+                android:layout_height="94dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#2258E3"
+                android:text="Sobre o Aplicativo"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvdp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:text="TESTE FOTON"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#2258E3"
+                android:textSize="30sp" />
+
+            <RadioGroup
+                android:id="@+id/rgIMC"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <TextView
+                    android:id="@+id/tvIMC"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="IMC"
+                    android:textAlignment="center"
+                    android:textColor="#2258E3"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/rbAM"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Abaixo da Média"
+                    android:focusable="true"/>
+
+                <RadioButton
+                    android:id="@+id/rbM"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Média"
+                    android:focusable="true"/>
+
+                <RadioButton
+                    android:id="@+id/rbAcM"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Acima da Média"
+                    android:focusable="true" />
+
+                <RadioButton
+                    android:id="@+id/rbObeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Obeso"
+                    android:focusable="true"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvDN"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Idade"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/rgIdade"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <RadioButton
+                    android:id="@+id/rb1449"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="14-49" />
+
+                <RadioButton
+                    android:id="@+id/rb5064"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="50-64" />
+
+                <RadioButton
+                    android:id="@+id/rb6574"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="65-74" />
+
+                <RadioButton
+                    android:id="@+id/rb7580"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="75-80" />
+
+                <RadioButton
+                    android:id="@+id/rb80a"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="80+" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rgSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvRP2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Sexo"
+                    android:textAlignment="center"
+                    android:textColor="#2258E3"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/masc"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/fem"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Feminino" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvRP"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Risco de Pele/Risco visível"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbSaudavel"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Saudável" />
+
+            <CheckBox
+                android:id="@+id/cbEdema"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Com edema" />
+
+            <CheckBox
+                android:id="@+id/cbQueb"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Quebradiça/ Marcada" />
+
+            <CheckBox
+                android:id="@+id/cbMfina"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Muito fina" />
+
+            <CheckBox
+                android:id="@+id/cbUmida"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Úmida e pegajosa (alta temperatura)" />
+
+            <CheckBox
+                android:id="@+id/cbSeca"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Seca" />
+
+            <CheckBox
+                android:id="@+id/cbDescorada"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Descorada" />
+
+            <TextView
+                android:id="@+id/tvRP5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Mobilidade"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbRestrito"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Restrito / Contido" />
+
+            <CheckBox
+                android:id="@+id/cbAgitado"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Inquieto/ Agitado" />
+
+            <CheckBox
+                android:id="@+id/cbTotal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Total" />
+
+            <CheckBox
+                android:id="@+id/cbInerte"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Inerte" />
+
+            <CheckBox
+                android:id="@+id/cbCadeirante"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Dependente de cadeira de rodas " />
+
+            <TextView
+                android:id="@+id/tvRP6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Subnutrição do Tecido Celular"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbFumante"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Fumante" />
+
+            <CheckBox
+                android:id="@+id/cbCaquexia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Caquexia" />
+
+            <CheckBox
+                android:id="@+id/cbAnemia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Anemia" />
+
+            <CheckBox
+                android:id="@+id/cbDoencavasc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Doença vascular periférica" />
+
+            <CheckBox
+                android:id="@+id/cbInsufcard"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Insuficiência cardíaca" />
+
+            <TextView
+                android:id="@+id/tvRP7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Deficiências Neurológicas"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbDiabetes"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Diabetes" />
+
+            <CheckBox
+                android:id="@+id/cbParaplegia"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Paraplegia motora ou sensitiva" />
+
+            <TextView
+                android:id="@+id/tvRP8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Cirurgia de Grande Porte/ Trauma"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbMedulal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Abaixo da medula lombar " />
+
+            <CheckBox
+                android:id="@+id/cbAcima2h"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Acima de duas horas " />
+
+            <TextView
+                android:id="@+id/tvRP10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Medicação"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cbEsteroides"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Esteróides" />
+
+            <CheckBox
+                android:id="@+id/cbAltadosagem"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Alta dosagem" />
+
+            <CheckBox
+                android:id="@+id/cbCitotoxicos"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Citotóxicos" />
+
+            <CheckBox
+                android:id="@+id/cbAntiinflamatorio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:checked="false"
+                android:clickable="true"
+                android:text="Anti- inflamatório" />
+
+            <RadioGroup
+                android:id="@+id/rgCont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvRP4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Continência"
+                    android:textAlignment="center"
+                    android:textColor="#2258E3"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/rbSVDouC"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Uso de SVD ou continente" />
+
+                <RadioButton
+                    android:id="@+id/rbOcaInc"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Ocasionalmente incontinente" />
+
+                <RadioButton
+                    android:id="@+id/rbSVDouI"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Uso de SVD mas incontinente fezes" />
+
+                <RadioButton
+                    android:id="@+id/rbDpI"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Duplamente incontinente" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rgApetite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvRP9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Apetite"
+                    android:textAlignment="center"
+                    android:textColor="#2258E3"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/rbNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Normal" />
+
+                <RadioButton
+                    android:id="@+id/rbPouco"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Pouco" />
+
+                <RadioButton
+                    android:id="@+id/rbSNGE"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="SNG/E" />
+
+                <RadioButton
+                    android:id="@+id/rbSomenteL"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Somente líquido" />
+
+                <RadioButton
+                    android:id="@+id/rbAnorexico"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Anorético" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvRP11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:backgroundTint="#2258E3"
+                android:text="Resultado"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvResultado2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="#2258E3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/calcular"
+                android:layout_width="317dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#2258E3"
+                android:text="Calcular Risco Paciente"
+                app:iconTint="#2258E3" />
+
+            <Button
+                android:id="@+id/verificar"
+                android:layout_width="317dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#2258E3"
+                android:text="Próxima Activity"
+                app:iconTint="#2258E3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvAutoria"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Autoria Intelectual"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614"
+                android:textIsSelectable="false"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Amanda Campos Macedo Ramos "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Renata Alves Teixeira da Costa"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FFFFFF"
+                android:text="Renata Alves Teixeira da Costa"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Desenvolvedor"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Eduardo Frederick Araujo da Cunha"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FFFFFF"
+                android:text="Eduardo Frederick Araujo da Cunha"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2258E3"
+                android:text="Referências Bibliográficas"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2258E3"
+                android:text="	DOMANSKY, Rita de Cássia.  Manual de prevenção de lesões de pele: recomendações baseadas em evidências. Rio de Janeiro: Rubio, 2014. 2 ed."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2258E3"
+                android:text="	European Pressure Ulcer Advisory Panel, National Pressure Injury Advisory Panel and Pan Pacific Pressure Injury Alliance. Prevenção e tratamento de lesões / úlceras por pressão. Guía de consulta rápida. (edição Portuguesa). Emily Haesler (Ed.). EPUAP/NPIAP/PPPIA: 2019."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2258E3"
+                android:text="	ROCHA, Alessandra Bongiovani Lima. Tradução para a língua portuguesa, adaptação transcultural e aplicação clínica da escala de Waterlow para avaliação de risco de desenvolvimento de ulcera de decúbito. Dissertação (Mestrado em Ciências) - Escola Paulista de Enfermagem, Universidade Federal de São Paulo (UNIFESP), São Paulo, 2003."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2258E3"
+                android:text="	ROCHA, Alessandra Bongiovani Lima; BARROS, Sonia Maria Oliveira. Avaliação de risco de úlcera por pressão: propriedades de medida da versão em português da escala de Waterlow. Acta Paul Enferm. 2007;20(2):143-50."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#E6E614" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

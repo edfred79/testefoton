@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRelogio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assista o vídeo abaixo para mais informações sobre Relógio de Decúbito:"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vVrelogiomud"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/tvMudancadecubito"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Assista o vídeo abaixo para mais informações sobre Mudança de Decúbito:"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vVmudanca"
+                android:layout_width="match_parent"
+                android:layout_height="240dp" />
+
+            <TextView
+                android:id="@+id/tvPressaocalcaneos"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Assista o vídeo abaixo para mais informações sobre Alívio de Pressão em Calcâneos:"
+                android:textAlignment="center"
+                android:textColor="#2258E3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vVcalcaneos"
+                android:layout_width="match_parent"
+                android:layout_height="240dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
